@@ -1,0 +1,33 @@
+{
+  "name": "joker",
+  "version": "0.0.5",
+  "description": "Module 2 environment lesson",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node src/js/joker.js",
+    "format": "prettier -w src/js/joker.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaznik/joker.git"
+  },
+  "keywords": [
+    "css",
+    "e-commerce",
+    "portfolio",
+    "website"
+  ],
+  "author": "Gazmend",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaznik/joker/issues"
+  },
+  "homepage": "https://github.com/gaznik/joker#readme",
+  "devDependencies": {
+    "prettier": "^2.8.4"
+  },
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
